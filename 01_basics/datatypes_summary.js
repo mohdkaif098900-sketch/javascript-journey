@@ -33,7 +33,32 @@ const myFunction = function(){
     console.log("Hello world");
     
 }
-console.log(typeof heros);
+// console.log(typeof heros);
+
+// ++++++++++++++++++++++++++++++
+
+//stack (Primitive) and Heap memory (NONPRIMITIVE)
+
+let myYoutubename = "mohdkaif99.com"
+let anothername = myYoutubename
+anothername = "chaiaurcoffee"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne  = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email ="kaif@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
 
 
 
